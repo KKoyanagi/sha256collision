@@ -40,7 +40,7 @@ def getHash(message, k, prefix):
 # before being killed. Brent's algorithm returned k=7 in 
 # ~1.25 hours. Could not find k=8 after ~24 hours of continuous 
 # running. Process kept getting killed after hogging up the CPU
-# for too long time. 
+# for too long. 
 # https://gist.github.com/pdaian/2e10d273210cc02fd510f02ce8a8e12c
 # https://en.wikipedia.org/wiki/Cycle_detection#Brent.27s_algorithm
 def brent(k, prefix, initial):
